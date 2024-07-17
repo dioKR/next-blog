@@ -4,7 +4,5 @@ interface PostsProps {
 }
 
 export default function Posts(props: PostsProps) {
-  console.log(props);
-
   return <div>123</div>;
 }

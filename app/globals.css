@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tmp {
+  color: #dadada;
+  border: #35393e;
+  backgroud: #1c2127;
+}
