@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className="flex justify-center">
         <main
           className="flex h-screen w-full max-w-2xl flex-col rounded border border-t-4
-            border-[#33373D] shadow-lg"
+            border-[#33373D] bg-[#1c2127]"
         >
           <Header />
           <div className="flex-1">{children}</div>
