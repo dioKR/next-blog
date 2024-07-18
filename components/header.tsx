@@ -1,5 +1,5 @@
 export default function Header() {
   return (
-    <header className="h-10 w-full border-b border-[#35393e] bg-[#181C20] font-semibold"></header>
+    <header className="bg-black2 border-strokedark2 h-10 w-full border-b font-semibold"></header>
   );
 }

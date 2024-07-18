@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        white: '#dadada',
+        black: '#1c2127',
+        black2: '#181c20',
+        body: '#1c2127fa',
+        strokedark: '#33373d',
+        strokedark2: '#35393e',
+      },
       fontFamily: {
         pretendard: ['var(--font-pretendard)'],
         sans: ['var(--font-inter)'],

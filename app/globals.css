@@ -3,7 +3,5 @@
 @tailwind utilities;
 
 body {
-  background: rgba(28, 33, 39, 0.98);
-  color: #dadada;
   font-family: var(--font-pretendard);
 }

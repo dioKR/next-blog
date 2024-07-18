@@ -21,12 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="kr" className={`${pretendard.variable}`}>
-      <body className="flex justify-center">
+      <body className="bg-body flex justify-center text-white">
         <main
-          className="flex h-screen w-full max-w-2xl flex-col rounded border border-t-4
-            border-[#33373D] bg-[#1c2127]"
+          className="border-strokedark flex h-screen w-full max-w-2xl flex-col rounded border
+            border-t-4 bg-black"
         >
           <Header />
+          123
           <div className="flex-1">{children}</div>
         </main>
       </body>
