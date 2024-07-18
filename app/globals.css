@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: #1c2127;
+  color: #dadada;
+}
+
 .tmp {
   color: #dadada;
   border: #35393e;
