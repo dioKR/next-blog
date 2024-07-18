@@ -1,3 +1,3 @@
 export default function Header() {
-  return <header>123</header>;
+  return <header>안녕하세요 글꼴 테스트입니다!!!</header>;
 }

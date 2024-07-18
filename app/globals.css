@@ -5,6 +5,7 @@
 body {
   background: #1c2127;
   color: #dadada;
+  font-family: var(--font-pretendard);
 }
 
 .tmp {
