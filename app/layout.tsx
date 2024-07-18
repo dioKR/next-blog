@@ -23,8 +23,8 @@ export default function RootLayout({
     <html lang="kr" className={`${pretendard.variable}`}>
       <body className="flex justify-center">
         <main
-          className="flex h-screen w-full max-w-2xl flex-col rounded-md border border-[#33373D]
-            shadow-lg"
+          className="flex h-screen w-full max-w-2xl flex-col rounded border border-t-4
+            border-[#33373D] shadow-lg"
         >
           <Header />
           <div className="flex-1">{children}</div>
