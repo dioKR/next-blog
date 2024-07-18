@@ -21,11 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="kr" className={`${pretendard.variable}`}>
-      <body>
-        <Header />
-        <div>안녕하세요 글꼴 테스트입니다!!!</div>
-        {children}
-        body 내부 끝
+      <body className="flex justify-center">
+        <main
+          className="flex h-screen w-full max-w-2xl flex-col rounded-md border border-[#33373D]
+            shadow-lg"
+        >
+          <Header />
+          <div className="flex-1">{children}</div>
+        </main>
       </body>
     </html>
   );
