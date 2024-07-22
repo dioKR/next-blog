@@ -1,5 +1,6 @@
 import BrowserButtons from './browser/browser-buttons';
 import CustomTabs from './custom-tabs';
+import StarIcon from './icons/star-icon';
 
 export default function Header() {
   return (
@@ -8,6 +9,10 @@ export default function Header() {
         font-semibold"
     >
       <BrowserButtons />
+      <div className="flex items-center space-x-2 hover:cursor-default">
+        <StarIcon />
+        <pre className="text-sm">DDoongjji's blog</pre>
+      </div>
       <CustomTabs />
     </header>
   );

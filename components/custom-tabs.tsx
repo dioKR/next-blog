@@ -3,6 +3,7 @@
 import { Tabs, Tab, Chip } from '@nextui-org/react';
 import UserIcon from './icons/user-icon';
 import BookSquareIcon from './icons/book-square-icon';
+import StarIcon from './icons/star-icon';
 
 export default function CustomTabs() {
   return (
