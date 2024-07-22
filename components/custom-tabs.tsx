@@ -1,9 +1,8 @@
 'use client';
 
 import { Tabs, Tab, Chip } from '@nextui-org/react';
-import { GalleryIcon } from './icons/gallery-icon';
-import { MusicIcon } from './icons/music-icon';
-import { VideoIcon } from './icons/video-icon';
+import UserIcon from './icons/user-icon';
+import BookSquareIcon from './icons/book-square-icon';
 
 export default function CustomTabs() {
   return (
@@ -21,11 +20,11 @@ export default function CustomTabs() {
         }}
       >
         <Tab
-          key="photos"
+          key="posts"
           title={
             <div className="flex items-center space-x-2">
-              <GalleryIcon />
-              <span>Photos</span>
+              <BookSquareIcon />
+              <span>Posts</span>
               <Chip size="sm" variant="faded">
                 9
               </Chip>
@@ -33,26 +32,11 @@ export default function CustomTabs() {
           }
         />
         <Tab
-          key="music"
+          key="about"
           title={
             <div className="flex items-center space-x-2">
-              <MusicIcon />
-              <span>Music</span>
-              <Chip size="sm" variant="faded">
-                3
-              </Chip>
-            </div>
-          }
-        />
-        <Tab
-          key="videos"
-          title={
-            <div className="flex items-center space-x-2">
-              <VideoIcon />
-              <span>Videos</span>
-              <Chip size="sm" variant="faded">
-                1
-              </Chip>
+              <UserIcon />
+              <span>About</span>
             </div>
           }
         />
