@@ -1,5 +1,5 @@
-import { Button } from '@nextui-org/button';
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return <div className="h-full w-full"></div>;
+  redirect('/posts');
 }

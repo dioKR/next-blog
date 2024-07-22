@@ -1,8 +1,8 @@
-interface PostsProps {
+interface PostProps {
   params: { id: string };
   searchParams: {};
 }
 
-export default function Posts(props: PostsProps) {
+export default function Post(props: PostProps) {
   return <div>123</div>;
 }
